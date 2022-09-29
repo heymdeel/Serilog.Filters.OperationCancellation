@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Filters.OperationCancellation", "src\Serilog.Filters.OperationCancellation\Serilog.Filters.OperationCancellation.csproj", "{25B66077-85DC-4155-9032-177D2BD23D45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{158E9F21-1FF6-4A41-9F8C-3D43DD781A9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{20D1B32F-A10F-4712-9478-7D778F64FD46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Filters.OperationCancellation.Tests", "test\Serilog.Filters.OperationCancellation.Tests\Serilog.Filters.OperationCancellation.Tests.csproj", "{C4E8C2D4-407F-4B0E-BCF6-C180180722E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25B66077-85DC-4155-9032-177D2BD23D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B66077-85DC-4155-9032-177D2BD23D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B66077-85DC-4155-9032-177D2BD23D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B66077-85DC-4155-9032-177D2BD23D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E8C2D4-407F-4B0E-BCF6-C180180722E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E8C2D4-407F-4B0E-BCF6-C180180722E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E8C2D4-407F-4B0E-BCF6-C180180722E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E8C2D4-407F-4B0E-BCF6-C180180722E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25B66077-85DC-4155-9032-177D2BD23D45} = {158E9F21-1FF6-4A41-9F8C-3D43DD781A9F}
+		{C4E8C2D4-407F-4B0E-BCF6-C180180722E0} = {20D1B32F-A10F-4712-9478-7D778F64FD46}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48BE1DDB-49DB-4ED6-ACFF-0DF8A4C56480}
+	EndGlobalSection
+EndGlobal
