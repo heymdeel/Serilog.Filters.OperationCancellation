@@ -14,6 +14,7 @@ namespace Serilog.Filters.OperationCancellation
             }
 
             if (logEvent.Exception == null
+                && logEvent.Level == LogEventLevel.Error
                 && logEvent.Properties.ContainsKey("SourceContext")
                 && logEvent.Properties["SourceContext"].ToString() == "\"Microsoft.EntityFrameworkCore.Database.Command\""
                 && logEvent.MessageTemplate.Text.StartsWith("Failed executing DbCommand"))
